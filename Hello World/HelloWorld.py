@@ -1,2 +1,4 @@
-#First HelloWorld program in Python
-print("Hello World")
+#First Hello World program in Python
+
+message = "Hello World"
+print(message)
