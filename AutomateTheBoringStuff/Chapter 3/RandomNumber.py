@@ -1,5 +1,5 @@
 #Magic 8 ball style random number generator with the addition of a loop
-
+#important random
 import random
 
 #The function getAnswer returns a phrase based on the random number generated
