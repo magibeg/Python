@@ -5,7 +5,7 @@ import pygame
 pygame.init()
 
 #sets the size of the window
-win = pygame.display.set_mode((640,480))
+win = pygame.display.set_mode((640, 480))
 
 #sets the caption for the window
 pygame.display.set_caption("First Game")
@@ -47,9 +47,9 @@ while run:
         run = False
 
     #refills the window in black otherwise you get a trail of rectangles
-    win.fill((0,0,0))
+    win.fill((0, 0, 0))
     #draws the rectangle
-    pygame.draw.rect(win, (255,0,0), (x, y, width, height))
+    pygame.draw.rect(win, (255, 0, 0), (x, y, width, height))
     #updates the display
     pygame.display.update()
 #quits
