@@ -1,0 +1,3 @@
+Mammal, Bear
+Mammal, Whale
+Mammal, Horse
